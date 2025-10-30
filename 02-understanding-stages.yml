@@ -22,15 +22,15 @@ stages:
   jobs:
   - job: DevdeployJob
     steps:
-    - bash: DevdeployJob
+    - bash: echo DevdeployJob
 - stage: QADeploy
   jobs:
   - job: QADeployjob
     steps:
-    - bash: QADeployjob
+    - bash: echo QADeployjob
 - stage: ProdDeploy
   jobs:
   - job: ProdDeployjob
     steps:
-    - bash: prodDeployjob
+    - bash: echo ProdDeployjob
 
